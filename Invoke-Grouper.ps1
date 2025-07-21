@@ -25,3 +25,5 @@ function Invoke-Grouper
     $Results = $StringWriter.ToString()
     $Results
 }
+
+Invoke-Grouper -Command '-a 4 -f C:\Users\netsync1\grouper.txt'
